@@ -26,7 +26,9 @@ This can be done via `osacompile` in Terminal, or with the AppleScript Editor.
 `osacompile` example: `osacompile -o autoseecheatdo.scpt autoseecheatdo.applescript`
 
 Within GeekTool, create a new `shell` geeklet.  
-Set the command of the geeklet to `osacript` and the path to the compiled autoseecheatdo.scpt file, ie: `osascript /path/to/autoseecheatdo.scpt`
+Set the command of the geeklet to `osacript` and the path to the compiled autoseecheatdo.scpt file,  
+ie: `osascript /path/to/autoseecheatdo.scpt`  
+
 Just below the command, set the geeklet to `refresh every 1s`.
 
 __cheatseedo-on-command__
@@ -38,7 +40,9 @@ Change the keyword, or command if you prefer, the default is `cheat`.
 Also, for the extension make sure that the AppleScript `directoryToShortcuts` variable is set to the directory where the cheat sheets are kept.
 
 Within GeekTool, create a new `shell` geeklet.  
-Set the command of the geeklet to `cat` and the path to where the cheat sheets are kept, ending with the file `cheatseedo-on-command.txt`, ie: `cat /path/to/cheatseedo-on-command.txt`
+Set the command of the geeklet to `cat` and the path to where the cheat sheets are kept, ending with the file `cheatseedo-on-command.txt`.  
+ie: `cat /path/to/cheatseedo-on-command.txt`
+
 Just below the command, set the geeklet to `refresh every 1s`.
 
 __Geeklet style recommendation__
